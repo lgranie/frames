@@ -1,0 +1,20 @@
+[package]
+name = "frames"
+about = "A video manager"
+version = "0.1.0"
+author  = "Laurent Granié <laurent.granie@gmail.com>"
+edition = "2021"
+
+[dependencies]
+async-trait = "0.1.64"
+clap = { version = "4.1.8", features = ["derive"] }
+env_logger = "0.10.0"
+log = "0.4.17"
+serde = { version = "1.0.152", features = ["derive"] }
+serde_yaml = "0.9.17"
+simple_logger = "4.0.0"
+tokio = { version = "1.25.0", features = ["macros", "rt-multi-thread"] }
+transmission-rpc = "0.4.0"
+url = "2.3.1"
+xdg = "2.4.1"
+
